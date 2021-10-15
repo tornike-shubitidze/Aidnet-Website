@@ -57,8 +57,7 @@ h6 {
   letter-spacing: 1px;
 }
 
-.fa-search,
-.fa-times {
+.search-button i {
   font-size: 25px;
 }
 
@@ -138,19 +137,17 @@ h6 {
 
 .search-div {
   position: absolute;
-  /* width: 50%; */
-  top: 134px;
-  right: 11%;
+  top: calc(100vh- 1px);
+  right: 5.5%;
   z-index: 10;
   visibility: hidden;
 }
 
-/* .input-group {
-  position: relative;
-  z-index: 10;
-  visibility: hidden;
-} */
-
+@media (min-width: 1441px) {
+  .search-div {
+    right: 16%;
+  }
+}
 /* SlideShow */
 
 .carousel-caption {

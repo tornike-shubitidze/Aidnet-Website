@@ -4,12 +4,13 @@ searchBtn.addEventListener('click', function () {
     let searchBtnIcon = document.querySelector(".search-button i");
     if (searchBtnIcon.classList.contains("fa-search")) {
         searchBtnIcon.classList.remove("fa-search");
-        searchBtnIcon.classList.add("fa-times")
+        searchBtnIcon.classList.add("fa-times");
+        document.querySelector(".search-div").style.visibility = "visible";
     } else {
         searchBtnIcon.classList.remove("fa-times");
-        searchBtnIcon.classList.add("fa-search")
+        searchBtnIcon.classList.add("fa-search");
+        document.querySelector(".search-div").style.visibility = "hidden";
     };
-
 })
 
 
