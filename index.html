@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imgs/favicon.png">
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/all.css">
+
+
+    <link rel="stylesheet" href="./css/owl.carousel.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <title>Aidnet Toko</title>
+</head>
+
+<body>
+    <!-- SMALL NAVBAR -->
+    <header class="navbar navbar-custom p-0 ">
+        <div class="container d-none d-xl-flex ">
+            <div class="col-md-1  d-flex ">
+                <div class="col-md-4 py-2 text-center top-custom-border " href="#">
+                    <a class="m-0" href="https://www.facebook.com">
+                        <i class=" fab fa-facebook-f header-social-icon"></i>
+                    </a>
+                </div>
+                <div class="col-md-4 py-2 text-center top-custom-border r-border">
+                    <a class="my-auto" href="https://www.linkedin.com">
+                        <i class=" fab fa-linkedin-in header-social-icon"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3   d-flex top-custom-border ">
+                <div class="col-md-6  ">
+                    <p class="p-text-secondary py-2 text-center  ">
+                        <i class="fas fa-phone-alt text-light me-2"></i> +995 511135000
+                    </p>
+                </div>
+                <div class="col-md-6 top-custom-border r-border justify-content-center">
+                    <p class="p-text-secondary py-2 text-center pe-3 ">
+                        <i class=" fas fa-envelope text-light px-2"></i>
+                        info@aidnet.ge
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- STICKY NAVBAR -->
+    <div class="navbar bg-white sticky-xl-top py-0">
+        <div class="container d-block d-xl-flex">
+            <div class="col-xs-3 header-logo">
+                <a href="https://aidnet.ge">
+                    <img src="./imgs/logo.png" width="150">
+                </a>
+            </div>
+            <div class=" col-md-12 col-xl-6 d-xl-flex justify-content-end">
+                <div class="text-start text-nowrap fw-bold mb-0 px-xl-4 px-xs-0 xs-botom-border">About Us</div>
+                <div class="text-start fw-bold mb-0 px-xl-4 px-xs-0 xs-botom-border">Services</div>
+                <div class="text-start fw-bold mb-0 px-xl-4 px-xs-0 xs-botom-border">Projects</div>
+                <div class="text-start fw-bold mb-0 px-xl-4 px-xs-0 xs-botom-border">Technology</div>
+                <div class="text-start fw-bold mb-0 px-xl-4 px-xs-0 xs-botom-border">Contacts</div>
+            </div>
+            <div class="col-xl-1 d-none d-xl-block p-0 ">
+                <button type="button" class="search-button" data-bs-container="body" data-bs-toggle="popover"
+                    data-bs-placement="bottom" data-bs-content="Bottom popover">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- hidden search div -->
+    <div class="search-div ">
+        <div class="input-group ">
+            <div class="form-outline">
+                <input type="search" id="form1" class="form-control p-3" placeholder="search" />
+            </div>
+            <button type="button" class="btn btn-primary">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- SLIDE -->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./imgs/slider1_1920x810.jpg" class="d-block w-100">
+                <div class="carousel-caption">
+                    <h5 class="h4 text-start">// Only High-Quality Services</h5>
+                    <h1 class="text-start  ">SOFTWARE IT <br>OUTSORSING</h1>
+                    <p class="text-start mb-0">We are 10+ professional software engineers with </p>
+                    <p class="text-start "> 15+ years of experience in delivering superior products. </p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./imgs/slider3_1920x810.jpg" class="d-block w-100">
+                <div class="carousel-caption ">
+                    <h5 class="h4 text-start">// Full Cycle Software Development</h5>
+                    <h1 class=" text-start ">FROM IDEA <br> TO PRODUCT</h1>
+                    <p class=" text-start mb-0">We are 10+ professional software engineers with </p>
+                    <p class="text-start "> 15+ years of experience in delivering superior products. </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./imgs/slider2_1920x810.jpg" class="d-block w-100">
+                <div class="carousel-caption ">
+                    <h5 class="h4 text-start">// We Create Modern Digital Products</h5>
+                    <h1 class="text-start ">SEND-TO-END <br>DEVELOPMENT</h1>
+                    <p class="text-start mb-0">We are 10+ professional software engineers with </p>
+                    <p class="text-start mb-0 "> 15+ years of experience in delivering superior products. </p>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel--prev-icon" aria-hidden="true"><i class="fas fa-arrow-left"></i></span>
+
+        </button>
+        <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-next-icon" aria-hidden="true"><i class="fas fa-arrow-right"></i></span>
+
+        </button>
+    </div>
+
+    <!-- ABOUT COMPANY -->
+    <div class="about-company">
+        <div class="container mx-auto">
+            <div class="row justify-content-between">
+                <div class="col-xs-5 col-md-5">
+                    <h6 class="text-success fw-bolder">// ABOUT COMPANY</h6>
+                    <h1 class="fw-bolder mb-3">Your Trusted Partner <br> on the Journey to Digitalization</h1>
+                    <p class="text-secondary mb-4 lh-lg">Aidnet is the partner of choice for enterprises, SMEs and
+                        technology
+                        challengers. We help
+                        businesses
+                        elevate their value through custom software development, product design, QA and
+                        consultancy
+                        services.
+                    </p>
+
+                    <div class="row">
+                        <div class="col-xs-6 col-md-6 ab-us-boxes">
+                            <i class="fas fa-medal fa-rotate-180 fa-2x text-success mb-3"></i>
+                            <h5 class="fw-normal mb-3">Experience</h5>
+                            <div class="bottom-line"></div>
+                            <p class="mt-3 text-secondary">Our great team of more than 10+ software experts.</p>
+                        </div>
+                        <div class="col-xs-6 col-md-6 ab-us-boxes">
+                            <i class="fas fa-cog fa-2x text-success mb-3"></i>
+                            <h5 class="fw-normal mb-3 text-nowrap">Customer Oriented</h5>
+                            <div class="bottom-line"></div>
+                            <p class="mt-3 text-secondary">We’ll help you test bold new ideas while sharing your.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-5  col-md-5 m-auto ">
+                    <img src="./imgs/569x410.jpg" class="abt-us-img w-100 mb-5">
+                </div>
+            </div>
+            <img src="./imgs/260x210.jpg" class="img-1">
+            <img src="./imgs/243x193.jpg" class="img-2">
+        </div>
+    </div>
+
+    <!-- why choose us -->
+    <section class="why-choose-us ">
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-12 text-center pb-4">
+                    <h6 class="fw-bold choose-us-text-color">// WHY CHOOSE US</h6>
+                    <h1 class="fw-bolder text-white">Design the Concept <br>
+                        of Your Business Idea Now</h1>
+                </div>
+            </div>
+            <div class="row pb-4">
+                <div class="col-xl-3 col-md-6 pb-3 ">
+                    <div class="boxes">
+                        <p class="box-number ">01</p>
+                        <div class="describtion ">
+                            <h5>Product Design</h5>
+                            <p>Our product design service lets you prototype, test and validate your ideas. </p>
+                        </div>
+                        <div class="box-icon rounded-circle position-absolute"><i
+                                class="fas fa-pencil-ruler fa-2x position-absolute "></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 pb-3">
+                    <div class="boxes">
+                        <p class="box-number ">02</p>
+                        <div class="describtion">
+                            <h5>People</h5>
+                            <p>Our people impact the success of our business, that’s why we hire smart and dedicated
+                                people.
+                            </p>
+                        </div>
+                        <div class="box-icon rounded-circle"> <i class="fas fa-users fa-2x position-absolute "></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 pb-3">
+                    <div class="boxes">
+                        <p class="box-number">03</p>
+                        <div class="describtion ">
+                            <h5>Strong Partnership</h5>
+                            <p>We are agile and ready to align based on project specificity, so our partner's needs are
+                                always met with quality and best resources.
+                            </p>
+                        </div>
+
+                        <div class="box-icon rounded-circle"><i class="fas fa-handshake fa-2x position-absolute"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 pb-3">
+                    <div class="boxes">
+                        <p class="box-number ">04</p>
+                        <div class="describtion">
+                            <h5>We integrate with your team</h5>
+                            <p>We want to work with you, not just for you. We can work as an extension of your team.
+                            </p>
+                        </div>
+
+                        <div class="box-icon rounded-circle"><i class="fas fa-user-cog fa-2x position-absolute"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-6 col-sm-12">
+                    <div class="code-line-text text-white p-5 code-line-img"
+                        style="background-image: url(./imgs/570X250-codeLines.jpg); ">
+                        <h1>160000+</h1>
+                        <h6>Number of Code lines</h6>
+                        <p>And this is just the beginning..</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12 ">
+                    <div class="code-line-text text-white p-5 code-line-img"
+                        style="background-image: url(./imgs/570X250-happyCustomers.jpg);">
+                        <h1>10+</h1>
+                        <h6>Happy Customers</h6>
+                        <p>To succeed, every software solution must be deeply integrated into the existing tech
+                            environment..</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row pb-5">
+                <div class="col-xs-12">
+                    <h6 class="text-success fw-bolder">// OUR SERVICE</h6>
+                    <h1 class="fw-bolder mb-3">We Offer a Wide<br>
+                        Variety of IT Services</h1>
+                </div>
+            </div>
+
+            <!-- servis boxes -->
+
+            <div class="row">
+                <div class="col-md-4 d-flex py-4">
+                    <div class="col-md-2 pe-3 ">
+                        <i class="fas fa-sitemap fa-2x text-success"></i>
+                    </div>
+                    <div class="col-md-8 ms-3">
+                        <h5 class="fw-bold">Web Development</h5>
+                        <p class="lh-lg text-secondary">We carry more than just good coding skills. Our experience makes
+                            us stand out
+                            from other web
+                            development.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex py-4">
+                    <div class="col-md-2 px-3 ">
+                        <i class="fas fa-mobile-alt fa-2x text-success "></i>
+                    </div>
+                    <div class="col-md-8 ms-3">
+                        <h5 class="fw-bold ">Mobile Development</h5>
+                        <p class="lh-lg text-secondary">Create complex enterprise software, ensure reliable software
+                            integration, modernise your
+                            legacy system.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex py-4">
+                    <div class="col-md-2 pe-3">
+                        <i class="fas fa-desktop fa-2x text-success"></i>
+                    </div>
+                    <div class="col-md-8 ms-3">
+                        <h5 class="fw-bold">Staff Augmentation </h5>
+                        <p class="lh-lg text-secondary"> Use of outside personnel on a temporary basis to augment the
+                            capacity of an organization.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex py-4">
+                    <div class="col-md-2 pe-3">
+                        <i class="fas fa-window-maximize fa-2x text-success"></i>
+                    </div>
+                    <div class="col-md-8 ms-3">
+                        <h5 class="fw-bold"> QA & Testing</h5>
+                        <p class="lh-lg text-secondary"> Turn to our experts to perform comprehensive, multi-stage
+                            testing and auditing of your
+                            software.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex py-4">
+                    <div class="col-md-2 pe-3">
+                        <i class="fas fa-chart-bar fa-2x text-success"></i>
+
+                    </div>
+                    <div class="col-md-8 ms-3">
+                        <h5 class="fw-bold">IT Consultancy </h5>
+                        <p class="lh-lg text-secondary"> Trust our top minds to eliminate workflow pain points,
+                            implement new tech, and consolidate
+                            app portfolios.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex py-4">
+                    <div class="col-md-2 pe-3">
+                        <i class="fas fa-globe fa-2x text-success"></i>
+                    </div>
+                    <div class="col-md-8 ms-3">
+                        <h5 class="fw-bold"> Dedicated Team</h5>
+                        <p class="lh-lg text-secondary"> Over the past years, our customers succeeded by leveraging
+                            Intellectsoft’s process of
+                            building, motivating.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Let's Build Your Application! -->
+    <section class="custom-bg">
+        <div class="container custom-position">
+            <div class="row ">
+                <div class="col-md-12 cover-img text-white ">
+                    <p class="lead m-0">// We Carry More Than Just Good Coding Skills</p>
+                    <div class="row">
+                        <div class="col-md-9 ">
+                            <h1>Let's Build Your Application!</h1>
+                        </div>
+                        <div class="col-md-3 col-lg-2 fw-bolder align-self-end contact-us-div mx-auto">
+                            <div class="text-center p-3 border-color mb-4 "> Contact Us</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row case-studies">
+                <div class="col-md-5 ">
+                    <p class="fw-bolder m-0 text-success">// LATEST CASE STUDIES</p>
+                    <h1>Introduce Our Projects</h1>
+                </div>
+
+                <div class="col-md-7">
+                    <p class="lh-lg text-secondary">Software development outsourcing is just a tool to achieve business
+                        goals. But
+                        there
+                        is no
+                        way to
+                        get worthwhile results without cooperation and trust between a client and company.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- carousel -->
+
+    <div class="loop owl-carousel owl-theme custom-carousel">
+        <div class="item ">
+            <img src="./imgs/1.jpg">
+            <div class="text-white carousel-text-box ">
+                <h4 class="fw-normal">Golden Gate</h4>
+                <p class="m-0 ">DIGITAL LEGAL ASSISTANT</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./imgs/2.jpg">
+            <div class="text-white carousel-text-box ">
+                <h4 class="fw-normal">Pevaton</h4>
+                <p class="m-0 ">E-COMMERCE WEBSITE</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./imgs/3.jpg">
+            <div class="text-white carousel-text-box pb-4">
+                <h4 class="fw-normal"> Corvis</h4>
+                <p class="m-0 ">PROCUREMENT MANAGEMENT SYSTEM</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./imgs/4.jpg">
+            <div class="text-white carousel-text-box ">
+                <h4 class="fw-normal">Prokoro</h4>
+                <p class="m-0 ">SERVICE MARKETPLACE</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./imgs/5.jpg">
+            <div class="text-white carousel-text-box ">
+                <h4 class="fw-normal">Alltenders</h4>
+                <p class="m-0 ">TENDERS MANAGEMENT SYSTEM</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- TECHNOLOGY LANGUAGES -->
+    <section class="technology-language mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center text-white p-4">
+                    <h6>// TECHNOLOGY INDEX</h6>
+                    <h1>We Deliver Solution with <br>
+                        the Goal of Trusting Relationships</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="tech-box text-center text-white">
+                        <i class="fas fa-laptop-code "></i>
+                        <h6>WEB</h6>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="tech-box text-center text-white">
+                        <i class="fab fa-android"></i>
+                        <h6>ANDROID</h6>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="tech-box text-center text-white">
+                        <i class="fab fa-apple"></i>
+                        <h6>IOS</h6>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="tech-box text-center text-white">
+                        <i class="fab fa-angular"></i>
+                        <h6>ANGULAR</h6>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="tech-box text-center text-white">
+                        <i class="fab fa-js-square"></i>
+                        <h6>JAVASCRIPT</h6>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="tech-box text-center text-white">
+                        <i class="fab fa-react"></i>
+                        <h6>REACT</h6>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="tech-box text-center text-white">
+                        <i class="fab fa-java"></i>
+                        <h6>JAVA</h6>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="tech-box text-center text-white">
+                        <i class="fab fa-node-js"></i>
+                        <h6>NODEJS</h6>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="tech-box text-center text-white">
+                        <i class="fab fa-swift"></i>
+                        <h6>SWIFT</h6>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="tech-box text-center text-white">
+                        <i class="fas fa-code"></i>
+                        <h6>.NET</h6>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="tech-box text-center text-white">
+                        <i class="fas fa-server"></i>
+                        <h6>MSSQL SERVER</h6>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 mb-4">
+                    <div class="tech-box text-center text-white">
+                        <i class="fab fa-docker"></i>
+                        <h6>DOCKER</h6>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- UOR CLIENTS AND SMALL CAROUSEL -->
+    <section class="our-clients ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h6 class="text-success">// OUR CLIENTS</h6>
+                    <h1>We are Trusted
+                        <br>
+                        4 Countries Worldwide
+                    </h1>
+                </div>
+            </div>
+
+            <!-- second mini owl carousel -->
+
+
+        </div>
+    </section>
+
+    <!-- CONTACT US -->
+    <section class="contact-us pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="contact-side">
+                        <p class="text-success fw-bolder">// CONTACT DETAILS</p>
+                        <h1 class="pb-3">Contact us </h1>
+                        <p class="lh-lg text-secondary">Give us a call or drop by anytime, we endeavour to answer all
+                            enquiries within 24
+                            hours on
+                            business days. We will be happy to answer your questions.</p>
+
+                        <div class=" contact-box d-flex px-4 py-3">
+                            <i class="fas fa-globe fa-2x me-4"></i>
+                            <div>
+                                <h6 class="">Our Address:</h6>
+                                <p class="text-secondary">34 Gorgasali Street, Tbilisi, Georgia</p>
+                            </div>
+                        </div>
+                        <div class=" contact-box d-flex px-4 py-3">
+                            <i class="fas fa-envelope fa-2x me-4"></i>
+                            <div>
+                                <h6 class="">Our Mailbox:</h6>
+                                <p class="text-secondary">info@aidnet.ge </p>
+                            </div>
+                        </div>
+                        <div class=" contact-box d-flex px-4 py-3">
+                            <i class="fas fa-phone-alt fa-2x me-4 pt-1"></i>
+                            <div>
+                                <h6 class="">Our Phone:</h6>
+                                <p class="text-secondary">+995 511135000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 ">
+                    <div class="email-form">
+                        <h1>Ready to Get Started?</h1>
+                        <small class="text-white mb-5">Your email address will not be published. Required fields are
+                            marked *
+                        </small>
+                        <input class="w-100  p-3 mb-4 mt-5" type="text" placeholder="Your Name *">
+                        <input class="w-100  p-3 mb-4" type="text" placeholder="Your Email *">
+                        <textarea class="w-100 p-3 mb-3 " type="text" rows="8" placeholder="Message..."> </textarea>
+                        <button type="submit" class="send-btn px-4 py-3">Send Message</button>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+    <!-- MAP -->
+    <div class="map my-5"></div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center ">
+                    <img src="./imgs/aidnet-logo.png" width="150">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12 text-center">
+                    <div class=" d-block px-4 py-3 text-white">
+                        <i class="fas fa-globe fa-2x pb-4"></i>
+                        <p class="text-white fs-5 ">34 Gorgasali Street, Tbilisi, Georgia</p>
+                        <p class="footer-text-custom-color">Our Address</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 text-center">
+                    <div class=" d-block px-4 py-3 text-white">
+                        <i class="fas fa-envelope fa-2x pb-4"></i>
+                        <p class="text-white fs-5 ">info@aidnet.ge</p>
+                        <p class="footer-text-custom-color">Our Mailbox</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 text-center">
+                    <div class=" d-block px-4 py-3 text-white">
+                        <i class="fas fa-phone-alt fa-2x pb-4"></i>
+                        <p class="text-white fs-5 ">+995 511135000</p>
+                        <p class="footer-text-custom-color">Our Phone</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center pb-2">
+                <div class="col-md-3"></div>
+                <div class="col-lg-6 d-md-flex d-xs-block justify-content-between mx-auto">
+                    <div class="text-center text-white fs-5">Services </div>
+                    <div class="text-center text-white fs-5">Projects</div>
+                    <div class="text-center text-white fs-5">About Us</div>
+                    <div class="text-center text-white fs-5">Technology</div>
+                    <div class="text-center text-white fs-5 ">Contacts</div>
+                </div>
+
+                <div class="col-md-3"></div>
+            </div>
+            <div class="text-white text-center pt-2 pb-4 d-flex justify-content-center">
+                <div class="facebook-div me-2">
+                    <a class=" social-icon rounded-circle text-center text-white bg-white"
+                        href="https://www.facebook.com/aidnetdevelopment">
+                        <i class="fab fa-facebook-f bg-white"></i>
+                    </a>
+                </div>
+                <div class="linkdin-div">
+                    <a class="social-icon rounded-circle text-center text-white bg-white"
+                        href="https://www.linkedin.com/company/aidnet">
+                        <i class="fab fa-linkedin-in bg-white"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <p class="footer-text-custom-color">Copyright © 2020 Aidnet. All Rights Reserved.</p>
+                </div>
+            </div>
+    </footer>
+
+
+    <a href="#" id="up-arrow">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script>
+        jQuery(document).ready(function ($) {
+            $('.loop').owlCarousel({
+                center: true,
+                items: 2,
+                loop: true,
+                margin: 10,
+                responsive: {
+                    600: {
+                        items: 4
+                    }
+                }
+            });
+            $('.nonloop').owlCarousel({
+                center: true,
+                items: 2,
+                loop: false,
+                margin: 10,
+                responsive: {
+                    600: {
+                        items: 4
+                    }
+                }
+            });
+        });
+    </script>
+
+    <script src="./js/main.js"></script>
+
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPdRXdXrscXydl7TDd7r1r4dXS4jXIGoA&callback=initMap&v=weekly"
+        async></script> <!-- for google map -->
+
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/highlight.js"></script>
+</body>
+
+</html>
