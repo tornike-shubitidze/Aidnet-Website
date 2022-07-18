@@ -148,6 +148,7 @@ h6 {
     right: 16%;
   }
 }
+
 /* SlideShow */
 
 .carousel-caption {
@@ -176,10 +177,12 @@ h6 {
 }
 
 @media (min-width: 350px) and (max-width: 425px) {
+
   .fa-arrow-left,
   .fa-arrow-right {
     font-size: 14px;
   }
+
   .carousel-control-prev,
   .carousel-control-next {
     top: 83%;
@@ -222,6 +225,7 @@ h6 {
   .carousel-control-next {
     left: 2%;
   }
+
   .carousel-control-next {
     left: 10%;
   }
@@ -263,6 +267,7 @@ h6 {
 }
 
 @media (max-width: 1024px) {
+
   .img-1,
   .img-2 {
     display: none;
@@ -313,7 +318,7 @@ h6 {
   text-align: right;
 }
 
-.box-icon > i {
+.box-icon>i {
   color: #fff;
 }
 
@@ -326,7 +331,6 @@ h6 {
   left: -3%;
   font-family: "Montserrat", sans-serif;
   color: #56a376;
-  z-index: 1;
 }
 
 .describtion h5 {
@@ -425,6 +429,7 @@ h6 {
 .item {
   padding: 15px 7px;
 }
+
 .carousel-text-box {
   background: #295c3e;
   position: relative;
@@ -446,6 +451,7 @@ h6 {
   .carousel-text-box p {
     font-size: 8px;
   }
+
   .carousel-text-box h4 {
     font-size: 14px;
   }
@@ -517,7 +523,7 @@ h6 {
 }
 
 .contact-box:hover {
-  background: green;
+  box-shadow: 15px 15px 38px 0 rgb(0 0 0 / 10%);
 }
 
 .email-form {
@@ -545,7 +551,7 @@ h6 {
 }
 
 .send-btn:hover {
-  background-color: green;
+  background-color: #1a875b;
   color: white;
   transition: all 0.3s linear;
 }
